@@ -22,7 +22,7 @@ from rotate_attention.rotate_builder import RotateEncoderBuilder as rotate_build
 from fast_transformers.feature_maps import Favor,GeneralizedRandomFeatures
 import torch.nn.functional as F
 from functools import partial
-from apex import optimizers
+# from apex import optimizers
 
 from torch.utils.data import DataLoader
 import subprocess
